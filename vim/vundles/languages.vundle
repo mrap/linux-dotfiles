@@ -13,3 +13,6 @@ Bundle "nelstrom/vim-markdown-preview"
 Bundle "skwp/vim-html-escape"
 Bundle "tpope/vim-haml"
 Bundle "honza/vim-snippets"
+Bundle "derekwyatt/vim-scala"
+Bundle 'jelera/vim-javascript-syntax'
+Bundle "SingleCompile"
