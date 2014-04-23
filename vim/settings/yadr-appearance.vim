@@ -1,5 +1,35 @@
 " Make it beautiful - colors and fonts
 
+" ================ Solarized Colorscheme ========================
+" http://ethanschoonover.com/solarized/vim-colors-solarized
+" colorscheme solarized
+" set background=dark
+" ================ Railscasts Colorscheme ========================
+" set background=dark
+" colorscheme base16-default
+" highlight clear SignColumn
+" highlight VertSplit    ctermbg=236
+" highlight ColorColumn  ctermbg=237
+" highlight LineNr       ctermbg=236 ctermfg=240
+" highlight CursorLineNr ctermbg=236 ctermfg=240
+" highlight CursorLine   ctermbg=236
+" highlight StatusLineNC ctermbg=238 ctermfg=0
+" highlight StatusLine   ctermbg=240 ctermfg=12
+" highlight IncSearch    ctermbg=0   ctermfg=3
+" highlight Search       ctermbg=0   ctermfg=9
+" highlight Visual       ctermbg=3   ctermfg=0
+" highlight Pmenu        ctermbg=240 ctermfg=12
+" highlight PmenuSel     ctermbg=0   ctermfg=3
+" highlight SpellBad     ctermbg=0   ctermfg=1
+" ================ Vimbrant Colorscheme ========================
+" set background=dark
+" colorscheme vimbrant
+" highlight ColorColumn ctermbg=7
+" highlight ColorColumn guibg=Gray
+set background=dark
+colorscheme Monokai
+set t_Co=256
+
 if has("gui_running")
   "tell the term has 256 colors
   set t_Co=256
