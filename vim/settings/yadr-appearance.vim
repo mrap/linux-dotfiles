@@ -1,5 +1,7 @@
 " Make it beautiful - colors and fonts
 
+
+set t_Co=256
 " ================ Solarized Colorscheme ========================
 " http://ethanschoonover.com/solarized/vim-colors-solarized
 " colorscheme solarized
@@ -26,9 +28,11 @@
 " colorscheme vimbrant
 " highlight ColorColumn ctermbg=7
 " highlight ColorColumn guibg=Gray
+" ================ Monokai Colorscheme ========================
 set background=dark
 colorscheme Monokai
-set t_Co=256
+highlight ColorColumn ctermbg=7
+highlight ColorColumn guibg=Gray
 
 if has("gui_running")
   "tell the term has 256 colors
