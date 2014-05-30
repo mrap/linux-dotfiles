@@ -107,3 +107,4 @@ set sidescroll=1
 so ~/.yadr/vim/settings.vim
 nnoremap ; :
 set showbreak=↪
+set cursorline
