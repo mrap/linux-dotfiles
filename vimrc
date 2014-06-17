@@ -108,3 +108,8 @@ so ~/.yadr/vim/settings.vim
 nnoremap ; :
 set showbreak=↪
 set cursorline
+
+" Per project vim settings
+" Source: http://www.ilker.de/specific-vim-settings-per-project.html
+set exrc "enable per project settings with .exrc
+set secure "disables from allowing exrc to execute shell commands
