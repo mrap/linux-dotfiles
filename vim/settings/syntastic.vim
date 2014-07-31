@@ -8,3 +8,9 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 "ignore angularjs errors
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]"]
+"html warnings are passive
+let g:syntastic_mode_map = {'mode'              : 'active',
+                          \ 'active_filetypes'  : [],
+                          \ 'passive_filetypes' : ['html'] }
+
+

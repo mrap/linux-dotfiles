@@ -16,3 +16,4 @@ Bundle "honza/vim-snippets"
 Bundle "derekwyatt/vim-scala"
 Bundle 'jelera/vim-javascript-syntax'
 Bundle "SingleCompile"
+Bundle "mattn/emmet-vim"
