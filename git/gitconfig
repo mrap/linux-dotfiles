@@ -46,7 +46,8 @@
   last = diff HEAD^                 # diff last committed change
 
   # log
-  l = log --graph --date=short
+  oneline = log --graph --relative-date
+  twoline = log --pretty=format:\" %Cblue%s%n %C(auto)%cr | %h | %cn%Creset%n\"
   changes = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\" --name-status
   short = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\"
   simple = log --pretty=format:\" * %s\"
