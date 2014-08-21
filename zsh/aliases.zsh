@@ -84,6 +84,7 @@ alias gd='git diff'
 alias gb='git b'
 alias gbd='git b -D -w'
 alias gdc='git diff --cached -w'
+alias gds='git diff --staged'
 alias gpub='grb publish'
 alias gtr='grb track'
 alias gpl='git pull'
@@ -102,6 +103,9 @@ alias gsmu='git submodule update'
 alias gt='git t'
 alias gbg='git bisect good'
 alias gbb='git bisect bad'
+
+# Git combined commands
+alias gstplr='git stash -u && gplr && git stash pop'
 
 # Common shell functions
 alias less='less -r'
