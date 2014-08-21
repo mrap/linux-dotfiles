@@ -4,8 +4,8 @@
 set t_Co=256
 " ================ Solarized Colorscheme ========================
 " http://ethanschoonover.com/solarized/vim-colors-solarized
-" colorscheme solarized
-" set background=dark
+colorscheme solarized
+set background=dark
 " ================ Railscasts Colorscheme ========================
 " set background=dark
 " colorscheme base16-default
@@ -29,10 +29,10 @@ set t_Co=256
 " highlight ColorColumn ctermbg=7
 " highlight ColorColumn guibg=Gray
 " ================ Monokai Colorscheme ========================
-set background=dark
-colorscheme Monokai
-highlight ColorColumn ctermbg=7
-highlight ColorColumn guibg=Gray
+" set background=dark
+" colorscheme Monokai
+" highlight ColorColumn ctermbg=7
+" highlight ColorColumn guibg=Gray
 
 if has("gui_running")
   "tell the term has 256 colors
